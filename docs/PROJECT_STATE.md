@@ -1,8 +1,8 @@
 # Scoop - Project State
 
-**Last Updated**: 2025-10-17
-**Current Phase**: Documentation & Planning
-**Progress**: 0% (MVP not started)
+**Last Updated**: 2025-10-18
+**Current Phase**: Development - Environment Setup Complete
+**Progress**: 5% (Environment ready, first screen built)
 
 ---
 
@@ -41,6 +41,47 @@
 2. Create Firebase project
 3. Build authentication screens (signup/login)
 4. Begin profile creation flow
+
+---
+
+### Session 2 - 2025-10-18
+**Duration**: ~3 hours
+**Participants**: Developer + Claude Code
+
+**Completed**:
+- ✅ Verified Node.js v22.16.0 already installed
+- ✅ Installed Expo CLI globally
+- ✅ Created Firebase project: `scoop-dating`
+- ✅ Enabled Firebase Authentication (Email/Password)
+- ✅ Created Firestore database (us-east1, test mode)
+- ✅ Set up Firebase Storage (billing plan enabled)
+- ✅ Initialized React Native app with Expo in `src/frontend/`
+- ✅ Installed Firebase SDK and React Navigation dependencies
+- ✅ Created Firebase configuration file (`config/firebase.js`)
+- ✅ Built WelcomeScreen with Scoop branding
+- ✅ Successfully tested app on iPhone via Expo Go
+- ✅ Committed changes to Git (commit 10b246e)
+
+**Decisions Made**:
+1. **Firebase region**: us-east1 (for free Storage tier)
+2. **Billing enabled**: Required for Storage, but won't be charged in free tier limits
+3. **Development tool**: VS Code confirmed as code editor
+4. **No GitHub Copilot**: Using Claude Code for learning-focused development
+5. **Testing method**: Expo Go on iPhone (Windows doesn't support iOS simulator)
+
+**Challenges Encountered**:
+1. Firebase Storage requires billing plan (resolved by upgrading to Blaze plan with budget alerts)
+2. PowerShell execution policy blocked npx (resolved by using Command Prompt instead)
+3. Port 8081 conflict (resolved by killing previous Node process)
+
+**Blockers**: None currently
+
+**Next Session Goals**:
+1. Build Signup screen with email/password inputs
+2. Build Login screen with authentication
+3. Implement Firebase authentication logic
+4. Add React Navigation for screen switching
+5. Add form validation and error handling
 
 ---
 
