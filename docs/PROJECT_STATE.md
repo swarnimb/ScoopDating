@@ -1,8 +1,9 @@
 # Scoop - Project State
 
-**Last Updated**: 2025-10-18
+**Last Updated**: 2025-10-19
 **Current Phase**: Development - Environment Setup Complete
 **Progress**: 5% (Environment ready, first screen built)
+**Project Location**: `C:\Users\bagre\Downloads\My Files\Professional\Side Projects\Github Projects\Dating App - Scoop`
 
 ---
 
@@ -61,6 +62,7 @@
 - ✅ Built WelcomeScreen with Scoop branding
 - ✅ Successfully tested app on iPhone via Expo Go
 - ✅ Committed changes to Git (commit 10b246e)
+- ✅ Moved project from OneDrive to local drive for better performance
 
 **Decisions Made**:
 1. **Firebase region**: us-east1 (for free Storage tier)
@@ -73,6 +75,12 @@
 1. Firebase Storage requires billing plan (resolved by upgrading to Blaze plan with budget alerts)
 2. PowerShell execution policy blocked npx (resolved by using Command Prompt instead)
 3. Port 8081 conflict (resolved by killing previous Node process)
+4. File path length errors during programmatic copy (resolved by manual copy via File Explorer)
+
+**Project Relocation**:
+- Moved from: `C:\Users\bagre\OneDrive\My Files\Professional\Side Projects\Dating App - Scoop`
+- Moved to: `C:\Users\bagre\Downloads\My Files\Professional\Side Projects\Github Projects\Dating App - Scoop`
+- Reason: Better performance on local drive, avoid OneDrive sync conflicts with node_modules
 
 **Blockers**: None currently
 
@@ -395,4 +403,4 @@ We'll know the MVP is ready to beta test when:
 ---
 
 **Last Updated By**: Claude Code
-**Next Update**: After Session 2
+**Next Update**: After Session 3
